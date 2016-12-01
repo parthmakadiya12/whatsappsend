@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html><script language="javascript" type="text/javascript">
+<html>
+    <script language="javascript" type="text/javascript">
 function do() {
     var x = document.URL;
     return x;
 }</script>
+    
 <body>
 
 <h2>Send whasapp</h2>
 
 <a href="whatsapp://send?abid=username" onclick="location.href=this.href+'?text=HeyThere!checkout='+x;return false;">whatsapp</a>
+  <a href="intent://send/0123456789#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"> w2 </a>
+    <a href="whatsapp://send?text=hello">w3</a>
+    <a href="whatsapp://send" onclick="location.href=this.href+'?text=HeyThere!checkout='+x;return false;" >w3</a>
 </body>
 </html>
