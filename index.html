@@ -21,5 +21,15 @@ document.getElementById("link2").setAttribute("href",strLink);
     <a href="whatsapp://send" onclick="location.href=this.href+'?text=HeyThere!checkout='+x;" >w3</a><br/>
 
     <a id="link2">w final </a>
+    
+<script language="javascript" type="text/javascript">
+var sv = 10; 
+openPage = function() {
+location.href = "whatsapp://send?text=hello "+sv;
+}
+</script>
+
+ this is a <a href ="javascript:openPage()">Link  </a>
+    
 </body>
 </html>
