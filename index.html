@@ -1,29 +1,13 @@
 <!DOCTYPE html>
 <html>
-    <script language="javascript" type="text/javascript">
-function do() {
-    var x = "whatsapp://send?text=hello"+document.URL;
-    
-    var scrt_var = 10;
-var strLink = "whatsapp://send?text=hello"+document.URL;
-document.getElementById("link2").setAttribute("href",strLink);
-    
-    return x;
-}</script>
-    
+  
 <body>
 
 <h2>Send whasapp</h2>
 
-<a href="whatsapp://send?abid=username" onclick="location.href=this.href+'?text=HeyThere!checkout='+x;return false;">whatsapp</a>
-  <a href="intent://send/0123456789#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end"> w2 </a>
-    <a href="whatsapp://send?text=hello">w3</a>
-    <a href="whatsapp://send" onclick="location.href=this.href+'?text=HeyThere!checkout='+x;" >w3</a><br/>
-
-    <a id="link2">w final </a>
     
 <script language="javascript" type="text/javascript">
-var sv = 10; 
+var sv = document.URL; 
 openPage = function() {
 location.href = "whatsapp://send?text=hello "+sv;
 }
